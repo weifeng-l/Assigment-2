@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Nunito",sans-serif;
+  font-family: 'Nerko One', cursive;
   background-image: url(https://resources.altair.com/corp/images/industries_weather_cylc_image_left_interior_desktop_400pxhigh.jpg);
   background-size: cover;
 }
@@ -20,7 +20,7 @@ input[type="submit"]{
   background: #e7e7e7;
   border: none;
   border-radius: 2px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Nerko One', cursive;
   font-weight:bold;
   font-size: 20px;
   opacity: 80%;
@@ -38,7 +38,7 @@ input[type="submit"]:hover{
   background: #e7e7e7;
   border: none;
   border-radius: 2px;
-  font-family: "Nunito",sans-serif;
+  font-family: 'Nerko One', cursive;
   font-weight:bold;
   font-size: 20px;
   opacity: 70%;

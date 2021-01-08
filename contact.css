@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Nerko One', cursive;
 }
 
 header {
@@ -84,12 +84,12 @@ header a{
 .contact .content h1 {
     font-size: 36px;
     font-weight: 500;
-    color: rgb(75, 10, 21)
+    color: rgb(0, 0, 0)
 }
 
 .contact .content p {
     font-weight: 300;
-    color: rgb(75, 10, 21)
+    color: rgb(17, 14, 15)
 }
 
 .container {
