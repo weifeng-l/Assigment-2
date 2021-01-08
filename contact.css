@@ -5,7 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-header{
+header {
     position: relative;
     padding: 2em 3em;
     display: flex;
@@ -13,16 +13,16 @@ header{
     font-size: 1rem;
 }
   
-header{
+header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 2;
     height: 10vh;
-    background-color: #0e0f6d;
+    background-color:#0e0f6d;
 }
   
-header h3{
+header h3 {
     position: relative;
     margin: 0;
     width: 40%;
@@ -45,7 +45,6 @@ header ul {
 header ul li {
     position: relative;
     margin: 0 1em;
-    transition: all 0.2s linear;
 }
   
 header ul li a {
