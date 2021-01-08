@@ -5,6 +5,23 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+header {
+    position: relative;
+    padding: 3em 3em;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 10vh;
+    background-color: #6217b8;
+  }
+
 .contact {
     position: relative;
     min-height: 100vh;
