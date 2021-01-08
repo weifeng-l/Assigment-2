@@ -1,0 +1,131 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background-image: url(https://image.shutterstock.com/image-photo/weather-forecast-background-climate-change-260nw-1124541077.jpg);
+  background-size: cover;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 12px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Comfortaa', cursive;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover{
+  background-color: rgb(233, 13, 13);
+  border-color: rgb(233, 13, 13);
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.info{
+  width: 45%;
+  background: #e7e7ee;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.info h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.info p{
+  text-align: center;
+  position: relative;
+  margin:40px 0;
+  font-size:20px;
+}
+
+
+header, footer {
+  position: relative;
+  padding: 3em 3em;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+header, footer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 10vh;
+  background-color: #6217b8;
+}
+
+header h3, footer h3 {
+  position: relative;
+  margin: 0;
+  width: 40%;
+  font-family: 'Nerko One', cursive;
+  font-size: 2rem;
+  color: #58c5b7;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  margin: 0 1em;
+  transition: all 0.2s linear;
+}
+
+header ul li a {
+  font-family: 'Nerko One', cursive;
+  font-weight: 500;
+  color: #fff;
+}
+
+header ul li a:hover  {
+  font-family: 'Nerko One', cursive;
+  font-weight: 500;
+  color: red;
+}
+
+header a{
+  text-transform: uppercase;
+}
