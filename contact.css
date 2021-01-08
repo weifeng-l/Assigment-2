@@ -5,22 +5,66 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-header {
+header{
     position: relative;
-    padding: 3em 3em;
+    padding: 2em 3em;
     display: flex;
     align-items: center;
     font-size: 1rem;
   }
   
-  header {
+  header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 2;
     height: 10vh;
-    background-color: #6217b8;
+    background-color: #0e0f6d;
   }
+  
+  header h3{
+    position: relative;
+    margin: 0;
+    width: 40%;
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    color: #58c5b7;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  header ul li {
+    position: relative;
+    margin: 0 1em;
+    transition: all 0.2s linear;
+  }
+  
+  header ul li a {
+    font-family: 'Nerko One', cursive;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover  {
+    font-family: 'Nerko One', cursive;
+    font-weight: 500;
+    color: red;
+  }
+  
+  header a{
+    text-transform: uppercase;
+  }
+  
 
 .contact {
     position: relative;
