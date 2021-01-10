@@ -130,7 +130,7 @@ header a{
     font-size: 16px;
     color: rgb(75,10,21);
     flex-direction: column;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .container .contactInfo .box .text h3 {

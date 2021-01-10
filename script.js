@@ -12,16 +12,18 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=a
 
 .then(response => response.json())
 .then(data => {
-  var tempValue = (data['main']['temp'] - 273.15).toFixed(2) + ' Celsius';
-  var nameValue = data['name'];
-  var descValue = data['weather'][0]['description'];
+  var tempValue = (data.main.temp - 273.15).toFixed(2) + ' °C';
+  var nameValue = data.name;
+  var descValue = data.weather[0].description;
+  var cloudsValue = data.clouds.all;
 
   main.innerHTML = nameValue;
   desc.innerHTML = "Weather Condition - "+descValue;
   temp.innerHTML = "Temp - "+tempValue;
+  clouds.innerHTML = "clouds - "+ cloudsValue + "%";
   input.value ="";
 
 })
 
 .catch(err => alert("Wrong city name!"));
-})
+});
