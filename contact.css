@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Yeon Sung', cursive;
 }
 
 header {
@@ -89,6 +89,7 @@ header a{
 
 .contact .content p {
     font-weight: 300;
+    font-family: 'Nerko One', cursive;
     color: rgb(17, 14, 15)
 }
 
